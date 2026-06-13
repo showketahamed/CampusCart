@@ -1,0 +1,30 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Logs
+*.log
+backend/backend.log
+frontend/frontend.log
+
+# Environment variables and local settings
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# IDE / Editor configuration files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
